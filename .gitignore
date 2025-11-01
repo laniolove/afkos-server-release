@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+build
+output
+ppocronnx
+uiautomator2
+.dart_tool
+log
+log/
+dist/
