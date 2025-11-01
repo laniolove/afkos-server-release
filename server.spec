@@ -114,7 +114,7 @@ a = Analysis(  # type: ignore
     + poj_hiddenimports + pyarmor_hiddenimports + additional_hiddenimports,
     hookspath=[],
     hooksconfig={},
-    runtime_hooks=["pyarmor_hook.py"],  # 添加PyArmor运行时钩子
+    runtime_hooks=[],  # 移除对外部钩子文件的依赖
     excludes=[],
     noarchive=False,
     optimize=0,
